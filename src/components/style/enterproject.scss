@@ -1,0 +1,31 @@
+// .el-col-12 {
+//     background: url('../../assets/image/ywCenterImg.png') no-repeat;
+//     height: 16vh;
+//     padding-left: 10px;
+//     padding-right: 10px;
+// }
+.container {
+    padding: 20px;
+}
+
+.businessmodule {
+    margin-top: 20px;
+    width: 38vw;
+    height: 16vh;
+}
+
+.content {
+    width: 38vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -16vh;
+    span {
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(41, 125, 220);
+        margin-bottom: 5px;
+    }
+}

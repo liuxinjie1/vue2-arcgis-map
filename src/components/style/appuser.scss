@@ -1,0 +1,83 @@
+.appuserbody {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+
+    .el-card:first-child {
+        display: flex;
+
+        .title::before {
+            display: inline-block;
+            content: "";
+            width: 5px;
+            height: 20px;
+            background: #409eff;
+            vertical-align: bottom;
+            margin-right: 10px;
+        }
+
+        .el-tree {
+            margin-top: 10px;
+        }
+
+        flex: 1;
+    }
+
+    .el-card:last-child {
+        display: flex;
+
+        .title::before {
+            display: inline-block;
+            content: "";
+            width: 5px;
+            height: 20px;
+            background: #409eff;
+            vertical-align: bottom;
+            margin-right: 10px;
+        }
+
+        .tzform {
+            height: 200px;
+            width: 100%;
+            margin-top: 10px;
+            box-sizing: border-box;
+            overflow-y: auto;
+
+            .el-input {
+                width: 200px;
+            }
+
+            .el-select {
+                width: 200px;
+            }
+        }
+
+        .labels::before {
+            content: "*";
+            color: #f56c6c;
+            margin-right: 4px;
+            line-height: 25px;
+        }
+
+        .bottomcla {
+            flex: 1;
+            display: flex;
+            margin-top: 10px;
+            flex-direction: column;
+            .topbt {
+                display: flex;
+                .el-input {
+                    width: 150px;
+                }
+                .el-select {
+                    width: 150px;
+                }
+            }
+        }
+
+        margin-left: 5px;
+        flex: 5;
+    }
+}
