@@ -31,7 +31,7 @@ proxies:
 
   - name: "CF_V10_www.visa.com.tw_2053"
     type: vless
-    server: www.visa.com.tw
+    server: aaa.codejie.dpdns.org
     port: 2053
     uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
     tls: true
@@ -45,7 +45,7 @@ proxies:
 
   - name: "CF_V10_www.visa.com.tw_443"
     type: vless
-    server: www.visa.com.tw
+    server: aaa.codejie.dpdns.org
     port: 443
     uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
     tls: true
@@ -59,7 +59,7 @@ proxies:
 
   - name: "CF_V10_www.visa.com.tw_8443"
     type: vless
-    server: www.visa.com.tw
+    server: aaa.codejie.dpdns.org
     port: 8443
     uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
     tls: true
@@ -73,7 +73,7 @@ proxies:
 
   - name: "CF_V10_www.visa.com.tw_2083"
     type: vless
-    server: www.visa.com.tw
+    server: aaa.codejie.dpdns.org
     port: 2083
     uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
     tls: true
@@ -87,7 +87,7 @@ proxies:
 
   - name: "CF_V10_www.visa.com.tw_2087"
     type: vless
-    server: www.visa.com.tw
+    server: aaa.codejie.dpdns.org
     port: 2087
     uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
     tls: true
