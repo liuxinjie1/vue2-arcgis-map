@@ -1,33 +1,35 @@
 proxies:
-  - name: 🇺🇸 CF_V8_usa.visa.com_443
-    type: vless
-    server: usa.visa.com
-    port: 443
-    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
-    tls: true
-    servername: aaa.codejie.dpdns.org
+  - name: "vm-ws-instance-20250705-144807"
+    type: vmess
+    server: 35.212.212.185
+    port: 2086
+    uuid: 4a255866-68c5-4403-8ad8-8144583b2d8b
+    alterId: 0
+    cipher: auto
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: "/4a255866-68c5-4403-8ad8-8144583b2d8b-vm"
       headers:
-        Host: aaa.codejie.dpdns.org
-    udp: true
+        Host: www.bing.com
+    tls: false
 
-  - name: 🇲🇲 CF_V9_myanmar.visa.com_8443
+  - name: "vl-reality-instance-20250705-144807"
     type: vless
-    server: myanmar.visa.com
-    port: 8443
-    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
+    server: 35.212.212.185
+    port: 48348
+    uuid: cc7db0ac-fea0-446b-98f8-8b9b85c6e435
+    network: tcp
     tls: true
-    servername: aaa.codejie.dpdns.org
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: aaa.codejie.dpdns.org
     udp: true
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    servername: www.yahoo.com
+    reality-opts:
+      public-key: RJafjnl2XijwQPzPONX6MNCQoDhHb-x5aH4wrxt-4ms
+      short-id: 0eadc3ea
+      spider-x: ""
 
-  - name: 🇹🇼 CF_V10_www.visa.com.tw_2053
+  - name: "CF_V10_www.visa.com.tw_2053"
     type: vless
     server: www.visa.com.tw
     port: 2053
@@ -41,9 +43,37 @@ proxies:
         Host: aaa.codejie.dpdns.org
     udp: true
 
-  - name: 🇨🇭 CF_V11_www.visaeurope.ch_2083
+  - name: "CF_V10_www.visa.com.tw_443"
     type: vless
-    server: www.visaeurope.ch
+    server: www.visa.com.tw
+    port: 443
+    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
+    tls: true
+    servername: aaa.codejie.dpdns.org
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: aaa.codejie.dpdns.org
+    udp: true
+
+  - name: "CF_V10_www.visa.com.tw_8443"
+    type: vless
+    server: www.visa.com.tw
+    port: 8443
+    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
+    tls: true
+    servername: aaa.codejie.dpdns.org
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: aaa.codejie.dpdns.org
+    udp: true
+
+  - name: "CF_V10_www.visa.com.tw_2083"
+    type: vless
+    server: www.visa.com.tw
     port: 2083
     uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
     tls: true
@@ -55,9 +85,9 @@ proxies:
         Host: aaa.codejie.dpdns.org
     udp: true
 
-  - name: 🇧🇷 CF_V12_www.visa.com.br_2087
+  - name: "CF_V10_www.visa.com.tw_2087"
     type: vless
-    server: www.visa.com.br
+    server: www.visa.com.tw
     port: 2087
     uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
     tls: true
@@ -69,9 +99,9 @@ proxies:
         Host: aaa.codejie.dpdns.org
     udp: true
 
-  - name: 🇪🇺 CF_V13_www.visasoutheasteurope.com_2096
+  - name: "CF_V10_www.visa.com.tw_2096"
     type: vless
-    server: www.visasoutheasteurope.com
+    server: www.visa.com.tw
     port: 2096
     uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
     tls: true
@@ -82,3 +112,23 @@ proxies:
       headers:
         Host: aaa.codejie.dpdns.org
     udp: true
+
+  - name: "hy2-instance-20250705-144807"
+    type: hysteria2
+    server: 35.212.212.185
+    port: 58588
+    password: cc7db0ac-fea0-446b-98f8-8b9b85c6e435
+    sni: www.bing.com
+    alpn:
+      - h3
+    skip-cert-verify: true
+    udp: true
+
+  - name: "trojan-instance-20250705-144807"
+    type: trojan
+    server: 35.212.212.185
+    port: 12484
+    password: cc7db0ac-fea0-446b-98f8-8b9b85c6e435
+    sni: www.bing.com
+    udp: true
+    skip-cert-verify: true
