@@ -1,0 +1,84 @@
+proxies:
+  - name: 🇺🇸 CF_V8_usa.visa.com_443
+    type: vless
+    server: usa.visa.com
+    port: 443
+    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
+    tls: true
+    servername: aaa.codejie.dpdns.org
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: aaa.codejie.dpdns.org
+    udp: true
+
+  - name: 🇲🇲 CF_V9_myanmar.visa.com_8443
+    type: vless
+    server: myanmar.visa.com
+    port: 8443
+    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
+    tls: true
+    servername: aaa.codejie.dpdns.org
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: aaa.codejie.dpdns.org
+    udp: true
+
+  - name: 🇹🇼 CF_V10_www.visa.com.tw_2053
+    type: vless
+    server: www.visa.com.tw
+    port: 2053
+    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
+    tls: true
+    servername: aaa.codejie.dpdns.org
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: aaa.codejie.dpdns.org
+    udp: true
+
+  - name: 🇨🇭 CF_V11_www.visaeurope.ch_2083
+    type: vless
+    server: www.visaeurope.ch
+    port: 2083
+    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
+    tls: true
+    servername: aaa.codejie.dpdns.org
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: aaa.codejie.dpdns.org
+    udp: true
+
+  - name: 🇧🇷 CF_V12_www.visa.com.br_2087
+    type: vless
+    server: www.visa.com.br
+    port: 2087
+    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
+    tls: true
+    servername: aaa.codejie.dpdns.org
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: aaa.codejie.dpdns.org
+    udp: true
+
+  - name: 🇪🇺 CF_V13_www.visasoutheasteurope.com_2096
+    type: vless
+    server: www.visasoutheasteurope.com
+    port: 2096
+    uuid: abd87fc3-30ca-48f0-a8b6-9efb6c58a07a
+    tls: true
+    servername: aaa.codejie.dpdns.org
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: aaa.codejie.dpdns.org
+    udp: true
