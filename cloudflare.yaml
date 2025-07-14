@@ -1,5 +1,5 @@
 proxies:
-  - name: "vm-ws-instance-20250705-144807"
+  - name: "google-claud-vm-ws-instance-20250705-144807"
     type: vmess
     server: 35.212.212.185
     port: 2086
@@ -13,7 +13,7 @@ proxies:
         Host: www.bing.com
     tls: false
 
-  - name: "vl-reality-instance-20250705-144807"
+  - name: "google-claud-vl-reality-instance-20250705-144807"
     type: vless
     server: 35.212.212.185
     port: 48348
@@ -113,7 +113,7 @@ proxies:
         Host: aaa.codejie.dpdns.org
     udp: true
 
-  - name: "hy2-instance-20250705-144807"
+  - name: "google-claud-hy2-instance-20250705-144807"
     type: hysteria2
     server: 35.212.212.185
     port: 58588
@@ -124,7 +124,7 @@ proxies:
     skip-cert-verify: true
     udp: true
 
-  - name: "trojan-instance-20250705-144807"
+  - name: "google-claud-trojan-instance-20250705-144807"
     type: trojan
     server: 35.212.212.185
     port: 12484
